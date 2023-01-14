@@ -77,12 +77,10 @@ const Home = ({ setSelectedPage }: Props) => {
 
         {/* IMAGE */}
         <div
-          className="flex basis-3/5 justify-center md:z-10
+          className="flex basis-3/5 flex-col items-center justify-center md:z-10
               md:ml-40 md:mt-16 md:justify-items-end"
         >
           <img alt="home-pageGraphic" src={HomePageGraphic} />
-        </div>
-        <div className="flex justify-center">
           <p className="mt-8 text-lg font-bold">
             BOXING • JIU-JITSU • KICK-BOXING • MUAI-THAI
           </p>
